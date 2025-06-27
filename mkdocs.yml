@@ -9,6 +9,7 @@ theme:
   favicon: assets/Inkeys.svg
   homepage: https://wiki.inkeys.top
   features:
+    - offline
     # - navigation.instant
     # - navigation.instant.progress
     - navigation.tracking
@@ -26,13 +27,15 @@ theme:
         # name: 调整至明亮模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         # name: 调整至黑暗模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: teal
+      accent: teal
       toggle:
         icon: material/weather-night
         # name: 调整至明亮模式
@@ -48,7 +51,7 @@ plugins:
       languages:
         - locale: zh
           default: true
-          name: 中文
+          name: 简体中文
           site_name: "智绘教Inkeys 文档"
           build: true
         - locale: en
@@ -58,11 +61,20 @@ plugins:
             - Home: index.md
           build: true
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   alternate:
-    - name: 中文
+    - name: 简体中文
       link: /
       lang: zh
     - name: English

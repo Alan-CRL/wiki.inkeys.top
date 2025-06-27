@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Welcome to the Documentation of Inkeys EduDraw
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Here, the documentation will help you understand how to use Inkeys EduDraw, or you can check the development documentation.
 
-## Commands
+!!! info "Section Navigation"
+    [User Guide :fontawesome-solid-paper-plane:](#){ .md-button .md-button--primary }
+    [Developer Docs :simple-devbox:](#){ .md-button }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! abstract "Announcement"
+    The website is still under continuous development, please stay tuned...

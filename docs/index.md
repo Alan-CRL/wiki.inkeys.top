@@ -1,17 +1,12 @@
-# 欢迎来到 MkDocs
+# 欢迎来到 智绘教Inkeys 的文档
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+在这里，文档将帮助你理解 智绘教Inkeys 的使用文档，亦或是查看开发文档。
 
-## Commands
+!!! info "板块导航"
+    [使用文档 :fontawesome-solid-paper-plane:](#){ .md-button .md-button--primary }
+    [开发文档 :simple-devbox:](#){ .md-button }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! abstract "公告"
+    网站还在持续开发中，敬请期待……
