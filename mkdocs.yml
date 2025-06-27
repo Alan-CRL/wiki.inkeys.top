@@ -1,0 +1,70 @@
+site_name: 智绘教Inkeys 文档
+site_url: https://wiki.inkeys.top
+copyright: Copyright &copy; 2023-2025 AlanCRL(陈润林) 工作室
+repo_url: https://github.com/Alan-CRL/Inkeys
+repo_name: Alan-CRL/Inkeys
+theme:
+  name: material
+  logo: assets/Inkeys.svg
+  favicon: assets/Inkeys.svg
+  homepage: https://wiki.inkeys.top
+  features:
+    # - navigation.instant
+    # - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - toc.follow
+    - navigation.top
+    - search
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        # name: 调整至明亮模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        # name: 调整至黑暗模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        # name: 调整至明亮模式
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - 首页: index.md
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+          site_name: "智绘教Inkeys 文档"
+          build: true
+        - locale: en
+          name: English
+          site_name: "Inkeys Wiki"
+          nav:
+            - Home: index.md
+          build: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+extra:
+  alternate:
+    - name: 中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en
+      lang: en
