@@ -1,6 +1,6 @@
-# Welcome to the Documentation of Inkeys EduDraw
+# Welcome to the Wiki of Inkeys
 
-Here, the documentation will help you understand how to use Inkeys EduDraw, or you can check the development documentation.
+Here, the wiki will help you understand how to use Inkeys, or you can check the development documentation.
 
 !!! info "Section Navigation"
     [User Guide :fontawesome-solid-paper-plane:](#){ .md-button .md-button--primary }
