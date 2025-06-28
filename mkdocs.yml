@@ -48,6 +48,7 @@ nav:
   - 快速上手: start/start.md
 
 plugins:
+  - search
   - i18n:
       docs_structure: suffix
       languages:
