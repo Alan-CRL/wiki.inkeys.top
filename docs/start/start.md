@@ -96,19 +96,19 @@ document.getElementById('arch-hint').innerHTML = msg;
 
 1. 选择合适的版本并选择下载
 
-    ![123云盘](1.png){ width="48%" align=left } ![Github Release](2.png){ width="48%" align=right }  
+    ![123云盘](start/1.png){ width="48%" align=left } ![Github Release](start/2.png){ width="48%" align=right }  
 
-2. 下载完成后会得到一个压缩包。![](3.png){ width="50%" align=right }   
+2. 下载完成后会得到一个压缩包。![](start/3.png){ width="50%" align=right }   
 
 ### 解压
 
-1. 使用解压软件，将软件解压出来。![](4.png){ width="50%" align=right }  
-2. 打开解压后的文件夹，即可看到运行文件。![](5.png){ width="50%" align=right }  
+1. 使用解压软件，将软件解压出来。![](start/4.png){ width="50%" align=right }  
+2. 打开解压后的文件夹，即可看到运行文件。![](start/5.png){ width="50%" align=right }  
 
 ---
 
 ??? note "`Tips.txt` 文件中包含使用提示和 CI/CD 详细信息"
-    CI/CD（自动构建） 包含构建的软件版本，构建时间和构建系统等等。![](6.png){ width="30%" align=right }
+    CI/CD（自动构建） 包含构建的软件版本，构建时间和构建系统等等。![](start/6.png){ width="30%" align=right }
 
 ## 启动 智绘教Inkeys
 

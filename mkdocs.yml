@@ -45,7 +45,7 @@ theme:
 
 nav:
   - 首页: index.md
-  - 快速上手: start/start/start.md
+  - 快速上手: start/start.md
 
 plugins:
   - i18n:

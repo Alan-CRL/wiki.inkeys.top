@@ -14,7 +14,7 @@
 
     通过简短的步骤快速了解 智绘教Inkeys 的使用技巧。
 
-    [:octicons-arrow-right-24: 现在就开始吧](start/start/start.md)
+    [:octicons-arrow-right-24: 现在就开始吧](start/start.md)
 
 </div>
 <div class="grid cards" markdown>
