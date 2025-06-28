@@ -20,6 +20,7 @@ theme:
     - search.suggest
     - search.highlight
     - navigation.footer
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -44,6 +45,7 @@ theme:
 
 nav:
   - 首页: index.md
+  - 快速上手: start/start/start.md
 
 plugins:
   - i18n:
@@ -62,7 +64,10 @@ plugins:
           build: true
   - git-revision-date-localized:
       enable_creation_date: false
-  - glightbox
+  - glightbox:
+      zoomable: false
+      width: 80%
+      height: auto
 
 markdown_extensions:
   - admonition
