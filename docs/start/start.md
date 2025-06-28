@@ -94,9 +94,8 @@ document.getElementById('arch-hint').innerHTML = msg;
 
 ### 下载
 
-1. 选择合适的版本并选择下载
-
-    ![123云盘](start/1.png){ width="48%" align=left } ![Github Release](start/2.png){ width="48%" align=right }  
+1. 选择合适的版本并选择下载  
+![123云盘](start/1.png){ width="48%" } ![Github Release](start/2.png){ width="48%" }  
 
 2. 下载完成后会得到一个压缩包。![](start/3.png){ width="50%" align=right }   
 
