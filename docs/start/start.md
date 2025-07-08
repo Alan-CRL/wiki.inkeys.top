@@ -46,13 +46,13 @@ function detectArch()
 {
     let ua = navigator.userAgent;
     let platform = navigator.platform||"";
-    if (/x86_64|Win64|WOW64|amd64|x64/i.test(ua+platform)) 
-    {
-        return "x86_64";
-    }
     if (/arm64|aarch64/i.test(ua+platform)) 
     {
         return "arm64";
+    }
+    if (/x86_64|Win64|WOW64|amd64|x64/i.test(ua+platform)) 
+    {
+        return "x86_64";
     }
     if (/i686|i386|x86/i.test(ua+platform)) 
     {
