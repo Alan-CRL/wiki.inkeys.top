@@ -73,7 +73,7 @@ else
         msg = "<b>检测到您的系统架构为 32位</b>，请下载 <b>32位</b> 安装包。";
     }
     else if(arch=='x86_64') {
-        msg = "<b>检测到您的系统架构为 64位</b>，请下载 <b>64位</b> 安装包。";
+        msg = "<b>检测到您的系统架构为 64位</b>，请下载 <b>64位</b> 安装包。（也有可能为 Arm64，下载 Arm64 安装包）";
     }
     else if(arch=='arm64') {
         msg = "<b>检测到您的系统架构为 Arm64</b>，请下载 <b>Arm64</b> 安装包。";
@@ -111,4 +111,7 @@ document.getElementById('arch-hint').innerHTML = msg;
 
 ## 启动 智绘教Inkeys
 
-双击 `Inkeys.exe` 即可启动程序。
+双击 `Inkeys.exe` 即可启动程序。  
+
+## 未完待续
+20250726 更新中……  
