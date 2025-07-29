@@ -113,5 +113,10 @@ document.getElementById('arch-hint').innerHTML = msg;
 
 双击 `Inkeys.exe` 即可启动程序。  
 
-## 未完待续
-20250726 更新中……  
+![](start/7.png)
+
+您将看到软件的悬浮窗（在屏幕右下角）。点击后可以展开主栏，那么恭喜您软件安装成功了！
+
+## 转到[基础指南](/guide/basic-guide)（3 min）
+
+[基础指南](/guide/basic-guide)

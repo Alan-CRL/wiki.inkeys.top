@@ -46,6 +46,7 @@ theme:
 nav:
   - 首页: index.md
   - 快速上手: start/start.md
+  - 基础指南: guide/basic-guide.md
 
 plugins:
   - search

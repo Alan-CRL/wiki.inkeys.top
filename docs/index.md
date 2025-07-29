@@ -25,7 +25,8 @@
 
     详细的整理文档，可以更好的了解如何使用 智绘教Inkeys。
 
-    [:octicons-arrow-right-24: 敬请期待](#)
+    [:octicons-arrow-right-24: 基础指南](guide/basic-guide.md)  
+    [:octicons-arrow-right-24: 进阶指南（敬请期待）](#)  
 
 -   :material-book-edit:{ .lg .middle } __开发文档__
 
